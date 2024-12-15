@@ -1,0 +1,26 @@
+
+1. **Activate your virtual environment** (if it's not already activated):
+   ```bash
+   # On Windows
+   pdf_to_audio_env\Scripts\activate
+   # On macOS/Linux
+   source pdf_to_audio_env/bin/activate
+   ```
+
+2. **Install Flask**:
+   ```bash
+   pip install Flask
+
+   ```
+
+2.1 : Create the Required Directories:
+
+mkdir uploads
+mkdir outputs
+
+
+3. **Run your application again**:
+   ```bash
+   python app.py
+   ```
+
